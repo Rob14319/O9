@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+.logo img{
+    padding-left: 10px;
+    width: 40px;
+    background-color:black;
+}
+.navbar{
+    height: 10vh;
+    background-color: black;
+    color: #66D2D6;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul{
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    gap: 30px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    color: #66D2D6;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.navigation img{
+    height: 30px;
+}
+.headimg{
+    height: 400px;
+    background-image: url(img/bannerbg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+.headingtxt{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #66D2D6;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.aboutus{
+    background-color: #66D2D6;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.2rem;
+    
+}
+.about-head-txt{
+    font-weight: 400;
+    display: flex;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-content-txt{
+    display: flex;
+    width: 60vw;
+    text-align: center;
+    font-size: 1rem;
+}
+.image-container {
+    position: relative;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.popup img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.popupqr{
+    align-items: center;
+    text-align: center;
+}

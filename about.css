@@ -1,0 +1,33 @@
+*{
+    background-color: #66D2D6;
+    color: black;
+}
+.heading{
+    font-size: 3rem;
+}
+.contentaboutus{
+    padding-top: 2px;
+    width: 60vw;
+}
+.ContactUs{
+    background-color: #66D2D6;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contact-head-txt{
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.qrtxt{
+    background-color: #66D2D6;
+}
+.qrimg{
+    background-color: #66D2D6;
+}
+.qrimg img{
+    height: 20vh;
+}
